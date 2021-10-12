@@ -1,0 +1,127 @@
+
+/* Reset CSS */
+h3,h5,ul,li,p,a,img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header CSS */
+#aaa{
+   position: relative;
+}
+
+
+/* NAV CSS */
+nav  {
+    position: absolute;
+    top: 5px;
+    padding: 10 0 0 10;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    width: 370px;
+    height: 60px;
+    float: left;
+  }
+  
+a {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+a:hover {
+    color: palevioletred;
+    font-weight: bold;
+  }
+
+.eee a {
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(88, 88, 88)d;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+.eee a:hover {
+    color: palevioletred;
+    font-weight: bold;
+  }
+
+  /* Main CSS */
+main #bbb{
+      float: left;
+      margin: 200px auto 0 300px;
+      clear: both;
+  }
+main #bbb h3{
+      font-weight: bold;
+      color: tomato;
+     
+}
+
+main #ddd {
+    background-color: rgba(212, 209, 209, 0.533);
+    overflow: hidden;
+}
+.eee {
+    width: auto;
+    padding: 20 20 20 20;
+    margin: 30px 20px 20px 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    color:  rgba(156, 152, 152, 0.533);
+}
+
+.ppp {
+    width: 1500px;
+    padding: 10 10 10 10;
+    margin: 10px 20px 20px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    color:  rgba(156, 152, 152, 0.533);
+}
+
+
+
+/* Footer CSS */
+footer{
+    margin: 50;
+    height: 200px;
+    clear: both;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+footer #fff{
+    float: left;
+    margin: 30px 0 0 50px;
+    
+}
+
+footer .ggg{
+    float: right;
+    margin: 50px 100px 0 0px;
+    font-weight: bold;
+}
+
+footer .hhh{
+    text-align: center;
+    clear: both;
+    padding: 70px;
+    
+}
