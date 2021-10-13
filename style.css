@@ -64,12 +64,8 @@ main .main_map h3{
 }
 
 main a{
-  display: block;
   line-height: 20px;
-  text-align: center;
-  text-decoration: none;
   font-size: 20px;
-  font-weight: bold;
   color:rgb(124, 103, 103);
 }
 
@@ -79,17 +75,19 @@ main a:hover{
 
 main #main_menu {
     background-color: rgba(212, 209, 209, 0.533);
-    margin: 10px auto;
+    margin: 0px auto;
+    padding: 0px 30px;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 main h2{
   text-align: center;
   margin: 10px auto;
 }
 main .main_menu_list {
-    width: auto;
-    padding: 20 20 20 20;
-    margin: 10px 10px 10px 40px;
+  width: 500px;
+  margin: 0px 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
@@ -98,6 +96,10 @@ main .main_menu_list {
     font-weight: bold;
 }
 
+.thanhpho{
+  padding: 0 20px;
+  text-align: left;
+}
 .ppp {
     width: 1500px;
     padding: 10 10 10 10;
