@@ -16,7 +16,7 @@ header img{
 }
 
  body{
-   min-width: 1024px;
+  width: 1520;
  }
 
 /* NAV CSS */
@@ -75,6 +75,7 @@ main a:hover{
 
 main #main_menu {
     background-color: rgba(212, 209, 209, 0.533);
+    width: 1450px;
     margin: 0px auto;
     padding: 0px 30px;
     overflow: hidden;
@@ -86,14 +87,15 @@ main h2{
   margin: 10px auto;
 }
 main .main_menu_list {
-  width: 500px;
-  margin: 0px 10px;
+  width: 450px;
+  height: 650px;
+  margin: 10px 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
     color: black;
-    font-weight: bold;
+    
 }
 
 .thanhpho{
