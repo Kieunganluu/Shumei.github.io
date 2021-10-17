@@ -94,7 +94,7 @@ main .main_menu_list {
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
-    color: black;
+    color: #9999;
     
 }
 
@@ -115,6 +115,7 @@ main .main_menu_list {
 
 /* Footer CSS */
 footer{
+    width: 1519px;
     margin: 50;
     height: 200px;
     clear: both;
