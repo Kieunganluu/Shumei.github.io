@@ -80,6 +80,17 @@ main #main_menu {
     display: flex;
     justify-content: space-between;
 }
+
+main .main_menu_list img{
+  transition: transform .2s;
+}
+
+main .main_menu_list img:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
+}
+
 main h2{
   text-align: center;
   margin: 10px auto;
