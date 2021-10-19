@@ -81,15 +81,7 @@ main #main_menu {
     justify-content: space-between;
 }
 
-main .main_menu_list img{
-  transition: transform .2s;
-}
 
-main .main_menu_list img:hover {
-  -ms-transform: scale(1.01); /* IE 9 */
-  -webkit-transform: scale(1.01); /* Safari 3-8 */
-  transform: scale(1.01); 
-}
 
 main h2{
   text-align: center;
@@ -105,6 +97,16 @@ main .main_menu_list {
     text-align: center;
     color: rgba(88, 88, 88, 0.6);
     
+}
+
+main .main_menu_list img{
+  transition: transform .2s;
+}
+
+main .main_menu_list img:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
 }
 
 .thanhpho{
