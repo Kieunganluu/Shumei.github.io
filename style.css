@@ -5,19 +5,17 @@
   padding: 0;
 }
 
+
+
 /* Header CSS */
 #header_Halong{
    position: relative;
 }
 
 header img{
-  width:100% ;
+  width: 1519px;
   height: auto;
 }
-
- body{
-  width: 1520;
- }
 
 /* NAV CSS */
 header nav  {
@@ -94,7 +92,7 @@ main .main_menu_list {
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
-    color: #9999;
+    color: rgba(88, 88, 88, 0.6);
     
 }
 
