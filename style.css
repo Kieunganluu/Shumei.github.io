@@ -73,7 +73,7 @@ main a:hover{
 
 main #main_menu {
     background-color: rgba(212, 209, 209, 0.533);
-    width: 1450px;
+    width: 1515px;
     margin: 0px auto;
     padding: 0px 30px;
     overflow: hidden;
@@ -90,7 +90,7 @@ main h2{
 main .main_menu_list {
   width: 450px;
   height: 650px;
-  margin: 10px 10px;
+  margin: 10px 15px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
@@ -113,17 +113,47 @@ main .main_menu_list img:hover {
   padding: 0 20px;
   text-align: left;
 }
-.ppp {
-    width: 1500px;
-    padding: 10 10 10 10;
-    margin: 10px 20px 20px 10px;
+#Picture{
+  margin: 10px 120px;
+}
+.Picture_container {
+    margin: 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
     color:  rgba(156, 152, 152, 0.533);
+    position: relative;
+    width: 400px;
+    
+    
+}
+* {box-sizing: border-box;}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  height: 300px;
 }
 
+.overlay {
+  position:absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Picture_container:hover .overlay {
+  opacity: 1;
+}
 /* Footer CSS */
 footer{
     width: 1519px;
