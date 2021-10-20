@@ -85,11 +85,59 @@
   background-color:rgba(212, 209, 209, 0.533);
   border-radius: 10px;
 }
+.culture {
+  font-weight: bold;
+  text-align: center;
+  color: brown;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+} 
 .culture_img img {
     width: 300px;
     height: 300px;
     margin: 0 10px;
     padding: 0 30px;
+  }
+  culture_img{
+    margin: 10px 120px;
+  }
+  .Picture_container {
+      margin: 10px;
+      border-radius: 10px;
+      /* background-color: rgb(255, 255, 255); */
+      float: left;
+      text-align: center;
+      color:  rgba(156, 152, 152, 0.533);
+      position: relative;
+      width: 400px;
+      
+      
+  }
+  * {box-sizing: border-box;}
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    height: 300px;
+  }
+  
+  .overlay {
+    position:absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Picture_container:hover .overlay {
+    opacity: 1;
   }
 .culture_img p{
     margin: auto;
@@ -102,6 +150,7 @@
 
   .culture_img {
     margin: 10px auto;
+    padding: 10px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
