@@ -5,105 +5,90 @@
   padding: 0;
 }
 
-/* body{
+body{
   width: 1200px;
-  margin: 10px auto;
-} */
-
+  margin: 0px auto;
+}
 
 /* Header CSS */
 #header_Halong{
-   position: relative;
-}
-
-header img{
-  width: 1519px;
-  height: auto;
+  position: relative;
 }
 
 /* NAV CSS */
-header nav  {
-    position: absolute;
-    top: 5px;
-    padding: 10 0 0 10;
+.menu nav  {
+  position: absolute;
+  top: 5px;
+  padding: 10 0 0 10;
 }
 
-nav ul {
-    list-style: none;
+.menu ul {
+  list-style: none;
 }
 
-nav li {
-    width: 370px;
-    height: 60px;
-    float: left;
-  }
-  
-a {
-    display: block;
-    line-height: 40px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-a:hover {
-    color: palevioletred;
-    font-weight: bold;
-  }
-
-
-  /* Main CSS */
-main .main_map{
-      float: left;
-      margin: 200px auto 0 300px;
-      clear: both;
-  }
-main .main_map h3{
-      font-weight: bold;
-      color: tomato;     
+.menu li {
+  width: 300px;
+  float: left;
 }
 
-main a{
-  line-height: 20px;
+.hover {
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
   font-size: 20px;
-  color:rgb(124, 103, 103);
+  font-weight: bold;
 }
 
-main a:hover{
+a:hover {
   color: palevioletred;
+  font-weight: bold;
+}
+
+/* Main CSS */
+main .main_map{
+  float: left;
+  clear: both;
+  margin: 200px auto;
+}
+main .main_map h3{
+  font-weight: bold;
+  color: tomato;
+  margin: auto;     
+}
+
+main .map{
+color:rgb(124, 103, 103);
 }
 
 main #main_menu {
-    background-color: rgba(212, 209, 209, 0.533);
-    width: 1515px;
-    margin: 0px auto;
-    padding: 0px 30px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgba(212, 209, 209, 0.533);
+  /* margin: 0px auto;
+  padding: 0px 30px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 
 main h2{
-  text-align: center;
-  margin: 10px auto;
+text-align: center;
+margin: 10px auto;
 }
+
 main .main_menu_list {
-  width: 450px;
-  height: 650px;
+  width: 370px;
+  /* height: 650px; */
   margin: 10px 15px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
     color: rgba(88, 88, 88, 0.6);
-    
 }
 
 main .main_menu_list img{
+  width: 370px;
   transition: transform .2s;
 }
 
@@ -117,33 +102,31 @@ main .main_menu_list img:hover {
   padding: 0 20px;
   text-align: left;
 }
-#Picture{
-  margin: 10px 120px;
-}
+  /*Beautypicture  */
+
 .Picture_container {
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     float: left;
     text-align: center;
     color:  rgba(156, 152, 152, 0.533);
     position: relative;
-    width: 400px;
-    
-    
+    width: 400px;    
 }
+
 * {box-sizing: border-box;}
 
 /* Make the image to responsive */
 .image {
   display: block;
+  width: 400px;
   height: 300px;
 }
 
 .overlay {
   position:absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
@@ -160,29 +143,24 @@ main .main_menu_list img:hover {
 }
 /* Footer CSS */
 footer{
-    width: 1519px;
-    margin: 50;
-    height: 200px;
-    clear: both;
     background-color: whitesmoke;
-    overflow: hidden;
 }
 
 footer #fff{
     float: left;
-    margin: 30px 0 0 50px;
+    margin: 30px;
     
 }
 
 footer .ggg{
     float: right;
-    margin: 50px 100px 0 0px;
+    margin: 50px;
     font-weight: bold;
 }
 
 footer .hhh{
     text-align: center;
     clear: both;
-    padding: 40px;
+    
     
 }
