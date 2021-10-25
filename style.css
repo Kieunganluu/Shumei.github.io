@@ -8,6 +8,7 @@
 body{
   width: 1200px;
   margin: 0px auto;
+<<<<<<< Updated upstream
 }
 
 /* Header CSS */
@@ -29,6 +30,62 @@ body{
 .menu li {
   width: 300px;
   float: left;
+=======
+} */
+
+
+/* Header CSS */
+#header_Halong{
+   position: relative;
+}
+
+header img{
+  width: 100%;
+}
+
+/* NAV CSS */
+header nav  {
+    position: absolute;
+    width: 100%;
+    top: 6px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+nav li {
+  
+  }
+  
+a {
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+a:hover {
+    color: palevioletred;
+    font-weight: bold;
+  }
+
+
+  /* Main CSS */
+main .main_map{
+      float: left;
+      margin: 200px auto 0 300px;
+      clear: both;
+  }
+main .main_map h3{
+      font-weight: bold;
+      color: tomato;     
+>>>>>>> Stashed changes
 }
 
 .hover {
@@ -131,8 +188,6 @@ main .main_menu_list img:hover {
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity:0;
-  color: white;
   font-size: 20px;
   padding: 20px;
   text-align: center;
