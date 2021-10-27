@@ -1,3 +1,0 @@
-# University
-# Univercity
-# University
