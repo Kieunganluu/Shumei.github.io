@@ -1,0 +1,108 @@
+
+/* NAV CSS */
+
+header nav {
+  position: absolute;
+  top: 5px;
+  padding: 10 0 0 10;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+/*Main*/
+
+main {
+  text-align: center;
+  margin: 0px auto;
+  width: 1200px;
+}
+
+.Title_Page{
+  font-size: 25px;
+  margin: 1px auto;
+  color: orangered;
+}
+
+.Button nav {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.Button nav ul {
+  list-style: none;
+}
+
+.Button nav li {
+  width: 550px;
+  height: 50px;
+  line-height:50px;
+  margin: 0px 12px;
+  font-weight: bold;
+  float: left;
+  background-color:rgba(212, 209, 209, 0.533);
+  border-radius: 10px;
+}
+
+
+
+
+#culture1 {
+  background-color: rgba(212, 209, 209, 0.533);
+  border-radius: 10px;
+  
+}
+
+.culture {
+  font-weight: bold;
+  text-align: center;
+  color: brown;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.culture_img img {
+  width: 300px;
+  height: 300px;
+  margin: 0 10px;
+  padding: 0 30px;
+}
+.culture-h1{
+  padding-top: 50px;
+}
+.culture_img {
+  width: auto;
+  margin: 0px auto;
+  padding: 0px 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.culture_text {
+  width: auto;
+  font-size:15px;
+  font-weight: bold;
+  margin: 0px auto;
+  padding: 0px 70px 30px 70px;
+  color: rgba(88, 88, 88, 0.6);
+}
+
+#Travel {
+  background-color: rgba(212, 209, 209, 0.533);
+  border-radius: 10px;
+}
+
+#Food {
+  background-color: rgba(212, 209, 209, 0.533);
+  border-radius: 10px;
+}
