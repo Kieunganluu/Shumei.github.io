@@ -1,12 +1,4 @@
 
-/* NAV CSS */
-
-header nav {
-  position: absolute;
-  top: 5px;
-  padding: 10 0 0 10;
-}
-
 nav ul {
   list-style: none;
 }
