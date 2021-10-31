@@ -267,6 +267,7 @@ boby {
 }
 
 .lienhe {
+  z-index:999;
   position: fixed;
   top: 100px;
   right: 0px;
