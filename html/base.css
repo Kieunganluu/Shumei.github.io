@@ -45,7 +45,7 @@ html {
   width: 80%;
   display: block;
 }
-.header,.phanthanphai,.phanthantrai{
+.header{
   width: 100%;
 }
 .mobile-menu{
@@ -73,6 +73,10 @@ html {
 }
 .itemcuoi{
   margin-left: 25px;
+}
+.phanthanphai,.phanthantrai{
+  width: 100%;
+  padding: 0 20px;
 }
 }
 button:active{
