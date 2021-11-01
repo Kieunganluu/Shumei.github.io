@@ -24,7 +24,7 @@ html {
     padding: 5px;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 760px) {
+/* @media only screen and (min-width: 500px) and (max-width: 760px) {
   .body__phanthan-list{
     padding: 0 30px;
   }
@@ -32,8 +32,49 @@ html {
     width: 100%;
     padding: 10px;
   }
+} */
+/* Mobile */
+.mobile-menu-boss {
+  display: none;
 }
-
+@media (max-width: 739px) {
+.header__navbar, .lienhe{
+  display: none;
+}
+.mobile-menu-boss{
+  width: 80%;
+  display: block;
+}
+.header{
+  width: 100%;
+}
+.mobile-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  width: 100%;
+  height: 300px;
+}
+.containerboss {
+  display: block;
+  position: relative;
+  top: 10px;
+}
+.body__phanthan-list-item {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 80%;
+  height: 220px;
+  margin: 0px;
+}
+.itemcuoi{
+  margin-left: 25px;
+}
+}
 button:active{
   transform: scale(0.95);
 }
