@@ -408,7 +408,7 @@ h2 {
   box-sizing: border-box;
   overflow: visible;
   padding-right: 30px;
-  padding-bottom: 183px;
+  padding-bottom: 214px;
   width: 70%;
   float: left;
   border-bottom: 2px solid rgb(82, 78, 78, 0.4);
@@ -613,7 +613,7 @@ input[type="submit"]:hover {
   float: right;
 }
 .thanh4 .abc{
-padding-bottom: 112px;
+padding-bottom: 80px;
 }
 
 .thanh5 {

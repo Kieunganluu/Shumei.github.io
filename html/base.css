@@ -32,6 +32,9 @@ html {
 .header__navbar, .lienhe,.footer_first{
   display: none;
 }
+.mobile-home{
+  margin-left: 50px;
+}
 .mobile-menu-boss{
   width: 80%;
   display: block;
@@ -85,7 +88,7 @@ html {
   padding: 0px;
 }
 #contact a {
-  font-size:1.5rem;
+  font-size:12px;
 }
 .mobile-menu a:link{
   text-decoration: none;
