@@ -32,6 +32,9 @@ html {
 .header__navbar, .lienhe,.footer_first{
   display: none;
 }
+.fa-bars{
+  color: white;
+}
 .mobile-home{
   margin-left: 50px;
 }
