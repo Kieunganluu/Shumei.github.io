@@ -15,15 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 960px) {
-  .body__phanthan-list{
-    padding: 0 30px;
-  }
-  .body__phanthan-list-item{
-    width: 49.999%;
-    padding: 5px;
-  }
-}
 /* @media only screen and (min-width: 500px) and (max-width: 760px) {
   .body__phanthan-list{
     padding: 0 30px;
@@ -37,8 +28,8 @@ html {
 .mobile-menu-boss {
   display: none;
 }
-@media (max-width: 739px) {
-.header__navbar, .lienhe{
+@media (max-width: 739px){
+.header__navbar, .lienhe,.footer_first{
   display: none;
 }
 .mobile-menu-boss{
@@ -77,6 +68,22 @@ html {
 .phanthanphai,.phanthantrai{
   width: 100%;
   padding: 0 20px;
+}
+.chung{
+  padding: 0px;
+}
+.footer{
+  margin-top: 40px;
+}
+.footer_second{
+  padding:20px 0px;
+}
+.footer_second_item {
+  font-size:1rem;
+  margin: 20px 0;
+}
+.footer_second_item ul li{
+  padding: 0px;
 }
 }
 button:active{
