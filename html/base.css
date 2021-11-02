@@ -39,15 +39,15 @@ html {
   margin-left: 50px;
 }
 .mobile-menu-boss{
-  width: 80%;
+  width: 100%;
   display: block;
+  margin: 0 auto;
 }
 .header{
   width: 100%;
 }
 .mobile-menu{
-  display: flex;
-  justify-content: space-between;
+  margin-left: 74px;
 }
 .logo img {
   width: 100%;
