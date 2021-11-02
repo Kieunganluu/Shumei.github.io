@@ -100,9 +100,7 @@ html {
 .mb-logo{
   font-weight: bold;
 }
-.Button nav li {
-  width: 270px;
-}
+
 }
 button:active{
   transform: scale(0.95);
