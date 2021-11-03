@@ -100,8 +100,14 @@ html {
 .mb-logo{
   font-weight: bold;
 }
-
+.thanh3,.thanh4{
+  width: 100%;
 }
+.thanh3{
+    border-bottom: 2px solid rgb(82, 78, 78, 0.4);
+}
+}
+
 button:active{
   transform: scale(0.95);
 }
